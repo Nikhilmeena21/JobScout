@@ -1,27 +1,42 @@
-# job-scraper
+# JobScout
 
+JobScout is a LinkedIn job scraper built with Python and BeautifulSoup. This tool allows you to efficiently search and collect job listings from LinkedIn based on specified criteria.
 
-A python script that takes in user input for their field of job search, location, and the skills they possess. It will then parse through linkedin job postings for that field and look for the skills in the job description and show the results that match skills.
+## Features
+
+- Scrapes job listings from LinkedIn
+- Customizable search parameters
+- Data extraction using BeautifulSoup
+- Easy-to-use Python script
+
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/Nikhilmeena21/JobScout.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd JobScout
+   ```
+3. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
-* Navigate to the directory where you want this project to be cloned.
-* Clone this project by running `git clone https://github.com/Jaishreebala/job-scraper.git` in your terminal.
-* Navigate to this project in the terminal by running `cd job-scraper`.
-* Run the python script by typing `python app.py` in the terminal.
-* Look at the steps in demonstration for further instructions.
+[Provide instructions on how to use your scraper, including any command-line arguments or configuration files needed]
 
-## Demonstration:
+## Requirements
 
-__Step 1:__ Input your field, location and skills. (Can be left blank if needed but it is recommended to fill out as much information as possible for more customized results)
+- Python 3.x
+- BeautifulSoup4
 
- <img src="./Assets/userinput.png" width="500">
+## Contributing
 
-__Step 2:__ Wait for the script to find the jobs for for! :) 
-Note: The results are ordered by highest match, and the skills that were matched is also shown in the results as well.
- 
- <img src="./Assets/results.gif">
+Contributions are welcome! Please feel free to submit a Pull Request.
 
- __Step 3:__ Click the link to apply!
+## Disclaimer
 
-
+This tool is for educational purposes only. Please respect LinkedIn's terms of service and use this responsibly.
