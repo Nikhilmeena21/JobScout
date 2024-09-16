@@ -26,7 +26,27 @@ JobScout is a LinkedIn job scraper built with Python and BeautifulSoup. This too
 
 ## Usage
 
-[Provide instructions on how to use your scraper, including any command-line arguments or configuration files needed]
+Run the script:
+Copypython app.py
+
+Follow the prompts:
+
+Enter the job field (e.g., web development)
+Enter locations (comma-separated, e.g., Delhi,Noida,Bangalore)
+Enter skills (type 'done' when finished)
+
+
+The script will then search for jobs matching your criteria and display the results. For each job, you'll see:
+
+Job Title
+Employer
+% Match
+Skills
+Job Link
+Location
+
+
+
 
 ## Requirements
 
